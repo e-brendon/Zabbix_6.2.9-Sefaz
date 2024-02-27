@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<zabbix_export>
+    <version>6.2</version>
+    <date>2024-02-27T13:12:10Z</date>
+    <host_groups>
+        <host_group>
+            <uuid>47a9e1806d8e421796a4d68e5d19d40a</uuid>
+            <name>Monitoramento Sefaz</name>
+        </host_group>
+    </host_groups>
+    <hosts>
+        <host>
+            <host>SEFAZ_MT</host>
+            <name>SEFAZ_MT</name>
+            <templates>
+                <template>
+                    <name>Template_Sefaz_NFe_SdRedes</name>
+                </template>
+            </templates>
+            <groups>
+                <group>
+                    <name>Monitoramento Sefaz</name>
+                </group>
+            </groups>
+            <interfaces>
+                <interface>
+                    <interface_ref>if1</interface_ref>
+                </interface>
+            </interfaces>
+            <macros>
+                <macro>
+                    <macro>{$AUT}</macro>
+                    <value>MT</value>
+                </macro>
+                <macro>
+                    <macro>{$LINK}</macro>
+                    <value>http://www.nfe.fazenda.gov.br/portal/disponibilidade.aspx?versao=0.00&amp;tipoConteudo=P2c98tUpxrI=</value>
+                </macro>
+            </macros>
+            <inventory_mode>DISABLED</inventory_mode>
+        </host>
+    </hosts>
+</zabbix_export>
