@@ -1,11 +1,11 @@
 #!/usr/bin/env bash
 #
-# sefaznfe.discovery.sh - Realiza o download da página do serviço de NFE da receita federal
+#  sefaznfe.discovery.sh - Realiza o download da página do serviço de NFE da receita federal
 #
 # ------------------------------------------------------------------------ #
 # - Realiza o download da página e salva em /tmp com o nome statusNFE.txt.
-# Se ele tiver sucesso no download ele retorna o valor 1, caso tenha falha ou
-# a página estiver offline ele retorna 0.
+#  Se ele tiver sucesso no download ele retorna o valor 1, caso tenha falha ou
+#  a página estiver offline ele retorna 0.
 #
 #  Exemplos:
 #     $ ./sefaznfe.discovery.sh http://www.nfe.fazenda.gov.br/portal/disponibilidade.aspx?versao=0.00&tipoConteudo=Skeuqr8PQBY=
@@ -19,8 +19,8 @@
 #    - Substituído curl por wget.
 #
 # ------------------------------------------------------------------------ #
-# Testado em:
-#  bash 4.2.46
+#  Testado em:
+#   bash 5.1.4
 # ------------------------------- VARIÁVEIS ----------------------------------------- #
 WGET=$(which wget)
 AWK=$(which awk)
