@@ -1,6 +1,6 @@
 #!/usr/bin/env bash
 #
-# sefaznfe.consulta.sh - Consulta o status do serviço de NFE da receita federal
+#  sefaznfe.consulta.sh - Consulta o status do serviço de NFE da receita federal
 #
 # ------------------------------------------------------------------------ #
 #  - Este programa irá consultar o status do serviço de NFE da receita federal
@@ -13,13 +13,13 @@
 #  - Script criado com base no script do @bernardolankheet.
 #
 #   Exemplos:
-#      $ ./sefaznfe.consulta.sh AM AUTORIZACAO
+#      $ ./sefaznfe.consulta.sh MT AUTORIZACAO
 #      Neste exemplo o script realiza a consulta do campo de "Autorização" do
-#      estado de AM. Retornando o valor 1, 2 ou 0.
+#      estado de MT. Retornando o valor 1, 2 ou 0.
 #
 # ------------------------------------------------------------------------ #
-# Testado em:
-#   bash 4.2.46
+#  Testado em:
+#   bash 5.1.4
 # ------------------------------- VARIÁVEIS ----------------------------------------- #
 
 WGET=$(which wget)
