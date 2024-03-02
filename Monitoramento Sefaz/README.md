@@ -8,6 +8,6 @@ Caso retorne 0 significa que houve falha ao fazer o download \n
 0. A Bolinha está Vermelha e não está disponível naquele estado
 
 Esses dois aquivos tem que ser salvos no diretório:
-'''
+```
 /usr/lib/zabbix/externalscripts/
-'''
+```
