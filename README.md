@@ -7,3 +7,4 @@
 ### Cada diretório contém um README.md com instruções básicas de como funciona, após aplicar corretamente é só aguardar os dados em Last data
 ![alt text](https://github.com/[e-brendon]/[Zabbix_6.2.9-Sefaz_Monitoring]/blob/[master]/Imagens/LastDate.png?raw=true)
 
+![alt text](https://github.com/e-brendon/Zabbix_6.2.9-Sefaz_Monitoring/blob/master/Imagens/LastData.png)
